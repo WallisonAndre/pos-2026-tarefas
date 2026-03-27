@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
+<cardapio>
+    <prato id="p01">
+        <nome>Filé saudavel</nome>
+        <descricao>Frango grelhado e temperado com arroz </descricao>
+        <ingredientes>
+            <ingrediente>Peito de frango</ingrediente>
+            <ingrediente>Arroz integral</ingrediente>
+            <ingrediente>coloral e sal</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 25,00</preco>
+        <calorias>350 calorias</calorias>
+        <tempoPreparo>20 min</tempoPreparo>
+    </prato>
+
+    <prato id="p02">
+        <nome>Salmão ao Forno</nome>
+        <descricao>Posta de salmão com legumes no vapor.</descricao>
+        <ingredientes>
+            <ingrediente>Salmão</ingrediente>
+            <ingrediente>Brócolis</ingrediente>
+            <ingrediente>Cenoura</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 45,00</preco>
+        <calorias>420 kcal</calorias>
+        <tempoPreparo>30 min</tempoPreparo>
+    </prato>
+
+    <prato id="p03">
+        <nome>feijoada</nome>
+        <descricao>Feijoada com partes suinas e bovinas.</descricao>
+        <ingredientes>
+            <ingrediente>feijão</ingrediente>
+            <ingrediente>pé de porco </ingrediente>
+            <ingrediente>Cenoura</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 45,00</preco>
+        <calorias>420 kcal</calorias>
+        <tempoPreparo>30 min</tempoPreparo>
+    </prato>
+</cardapio>
