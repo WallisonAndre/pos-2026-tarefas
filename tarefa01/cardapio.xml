@@ -3,13 +3,13 @@
 
 <cardapio>
     <prato id="p01">
-        <nome>Feijoada Completa</nome>
+        <nome>Feijoada</nome>
         <descricao>Tradicional feijoada brasileira com carnes nobres.</descricao>
         <ingredientes>
             <ingrediente>Feijão preto</ingrediente>
             <ingrediente>Carne seca</ingrediente>
             <ingrediente>Lombo suíno</ingrediente>
-            <ingrediente>Paio</ingrediente>
+            <ingrediente>calabresa</ingrediente>
         </ingredientes>
         <preco moeda="BRL">&reais; 45,00</preco>
         <calorias>850 kcal</calorias>
@@ -17,13 +17,13 @@
     </prato>
 
     <prato id="p02">
-        <nome>Moqueca Capixaba</nome>
+        <nome>Moqueca</nome>
         <descricao>Peixe cozido em panela de barro com tempero verde.</descricao>
         <ingredientes>
             <ingrediente>Peixe Badejo</ingrediente>
             <ingrediente>Tomate fresco</ingrediente>
             <ingrediente>Coentro</ingrediente>
-            <ingrediente>Azeite de urucum</ingrediente>
+            <ingrediente>Azeite de dendê</ingrediente>
         </ingredientes>
         <preco moeda="BRL">&reais; 65,00</preco>
         <calorias>420 kcal</calorias>
@@ -45,7 +45,7 @@
     </prato>
 
     <prato id="p04">
-        <nome>Vatapá Paraense</nome>
+        <nome>Vatapá</nome>
         <descricao>Creme consistente de camarão com azeite de dendê.</descricao>
         <ingredientes>
             <ingrediente>Camarão seco</ingrediente>
@@ -59,7 +59,7 @@
     </prato>
 
     <prato id="p05">
-        <nome>Picanha Grelhada</nome>
+        <nome>Picanha assada</nome>
         <descricao>Corte nobre de carne bovina preparada na brasa.</descricao>
         <ingredientes>
             <ingrediente>Picanha fatiada</ingrediente>
