@@ -3,41 +3,72 @@
 
 <cardapio>
     <prato id="p01">
-        <nome>Filé saudavel</nome>
-        <descricao>Frango grelhado e temperado com arroz </descricao>
+        <nome>Feijoada Completa</nome>
+        <descricao>Tradicional feijoada brasileira com carnes nobres.</descricao>
         <ingredientes>
-            <ingrediente>Peito de frango</ingrediente>
-            <ingrediente>Arroz integral</ingrediente>
-            <ingrediente>coloral e sal</ingrediente>
+            <ingrediente>Feijão preto</ingrediente>
+            <ingrediente>Carne seca</ingrediente>
+            <ingrediente>Lombo suíno</ingrediente>
+            <ingrediente>Paio</ingrediente>
         </ingredientes>
-        <preco moeda="BRL">&reais; 25,00</preco>
-        <calorias>350 calorias</calorias>
-        <tempoPreparo>20 min</tempoPreparo>
+        <preco moeda="BRL">&reais; 45,00</preco>
+        <calorias>850 kcal</calorias>
+        <tempoPreparo>120 min</tempoPreparo>
     </prato>
 
     <prato id="p02">
-        <nome>Salmão ao Forno</nome>
-        <descricao>Posta de salmão com legumes no vapor.</descricao>
+        <nome>Moqueca Capixaba</nome>
+        <descricao>Peixe cozido em panela de barro com tempero verde.</descricao>
         <ingredientes>
-            <ingrediente>Salmão</ingrediente>
-            <ingrediente>Brócolis</ingrediente>
-            <ingrediente>Cenoura</ingrediente>
+            <ingrediente>Peixe Badejo</ingrediente>
+            <ingrediente>Tomate fresco</ingrediente>
+            <ingrediente>Coentro</ingrediente>
+            <ingrediente>Azeite de urucum</ingrediente>
         </ingredientes>
-        <preco moeda="BRL">&reais; 45,00</preco>
+        <preco moeda="BRL">&reais; 65,00</preco>
         <calorias>420 kcal</calorias>
-        <tempoPreparo>30 min</tempoPreparo>
+        <tempoPreparo>45 min</tempoPreparo>
     </prato>
 
     <prato id="p03">
-        <nome>feijoada</nome>
-        <descricao>Feijoada com partes suinas e bovinas.</descricao>
+        <nome>Baião de Dois</nome>
+        <descricao>Mistura clássica de arroz, feijão e queijo coalho.</descricao>
         <ingredientes>
-            <ingrediente>feijão</ingrediente>
-            <ingrediente>pé de porco </ingrediente>
-            <ingrediente>Cenoura</ingrediente>
+            <ingrediente>Arroz branco</ingrediente>
+            <ingrediente>Feijão de corda</ingrediente>
+            <ingrediente>Queijo coalho</ingrediente>
+            <ingrediente>Toucinho defumado</ingrediente>
         </ingredientes>
-        <preco moeda="BRL">&reais; 45,00</preco>
-        <calorias>420 kcal</calorias>
-        <tempoPreparo>30 min</tempoPreparo>
+        <preco moeda="BRL">&reais; 32,00</preco>
+        <calorias>550 kcal</calorias>
+        <tempoPreparo>35 min</tempoPreparo>
+    </prato>
+
+    <prato id="p04">
+        <nome>Vatapá Paraense</nome>
+        <descricao>Creme consistente de camarão com azeite de dendê.</descricao>
+        <ingredientes>
+            <ingrediente>Camarão seco</ingrediente>
+            <ingrediente>Farinha de trigo</ingrediente>
+            <ingrediente>Leite de coco</ingrediente>
+            <ingrediente>Azeite de dendê</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 38,00</preco>
+        <calorias>480 kcal</calorias>
+        <tempoPreparo>50 min</tempoPreparo>
+    </prato>
+
+    <prato id="p05">
+        <nome>Picanha Grelhada</nome>
+        <descricao>Corte nobre de carne bovina preparada na brasa.</descricao>
+        <ingredientes>
+            <ingrediente>Picanha fatiada</ingrediente>
+            <ingrediente>Sal grosso</ingrediente>
+            <ingrediente>Manteiga de garrafa</ingrediente>
+            <ingrediente>Alho picado</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 75,00</preco>
+        <calorias>600 kcal</calorias>
+        <tempoPreparo>25 min</tempoPreparo>
     </prato>
 </cardapio>
