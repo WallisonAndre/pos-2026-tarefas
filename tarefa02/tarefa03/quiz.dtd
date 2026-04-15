@@ -1,0 +1,5 @@
+<!ELEMENT quiz (pergunta+)>
+<!ELEMENT pergunta (enunciado, alternativa, alternativa, alternativa, alternativa)>
+<!ELEMENT enunciado (#PCDATA)>
+<!ELEMENT alternativa (#PCDATA)>
+<!ATTLIST alternativa correta (sim | nao) #REQUIRED>

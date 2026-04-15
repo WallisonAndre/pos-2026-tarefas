@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+
+<quiz>
+    <pergunta>
+        <enunciado>Qual é o símbolo usado no DTD para indicar que um elemento é opcional (0 ou 1)?</enunciado>
+        <alternativa correta="nao">Asterisco (*)</alternativa>
+        <alternativa correta="nao">Sinal de mais (+)</alternativa>
+        <alternativa correta="sim">Ponto de interrogação (?)</alternativa>
+        <alternativa correta="nao">Arroba (@)</alternativa>
+    </pergunta>
+
+    <pergunta>
+        <enunciado>O XML é "Case Sensitive". O que isso significa?</enunciado>
+        <alternativa correta="sim">Que diferencia letras maiúsculas de minúsculas.</alternativa>
+        <alternativa correta="nao">Que o código só aceita letras maiúsculas.</alternativa>
+        <alternativa correta="nao">Que o código deve ser escrito apenas em inglês.</alternativa>
+        <alternativa correta="nao">Que não podemos usar números nas tags.</alternativa>
+    </pergunta>
+
+    <pergunta>
+        <enunciado>Como deve ser a estrutura de um arquivo XML?</enunciado>
+        <alternativa correta="nao">Pode ter vários elementos raiz.</alternativa>
+        <alternativa correta="nao">As tags não precisam de fechamento.</alternativa>
+        <alternativa correta="sim">Deve ter um único elemento raiz contendo os outros.</alternativa>
+        <alternativa correta="nao">Não é permitido usar atributos.</alternativa>
+    </pergunta>
+
+    <pergunta>
+        <enunciado>Para que serve o arquivo DTD?</enunciado>
+        <alternativa correta="nao">Para deixar o XML colorido no navegador.</alternativa>
+        <alternativa correta="sim">Para definir as regras e a estrutura do XML.</alternativa>
+        <alternativa correta="nao">Para transformar o XML em um site HTML.</alternativa>
+        <alternativa correta="nao">Para apagar os dados do arquivo XML.</alternativa>
+    </pergunta>
+
+    <pergunta>
+        <enunciado>O que o símbolo (+) indica após um elemento no DTD?</enunciado>
+        <alternativa correta="nao">Que o elemento é proibido.</alternativa>
+        <alternativa correta="sim">Que o elemento deve aparecer 1 ou mais vezes.</alternativa>
+        <alternativa correta="nao">Que o elemento é opcional.</alternativa>
+        <alternativa correta="nao">Que o elemento deve aparecer exatamente 10 vezes.</alternativa>
+    </pergunta>
+</quiz>
