@@ -1,0 +1,86 @@
+{
+    "cardapio": {
+        "prato": [
+            {
+                "id": 1,
+                "nome": "Feijoada",
+                "descricao": "Tradicional feijoada brasileira com carnes nobres.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Feijão preto",
+                        "Carne seca",
+                        "Lombo suíno",
+                        "calabresa"
+                    ]
+                },
+                "preco": 45.0,
+                "calorias": 850,
+                "tempoPreparo": "120 min"
+            },
+            {
+                "id": 2,
+                "nome": "Moqueca",
+                "descricao": "Peixe cozido em panela de barro com tempero verde.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Peixe Badejo",
+                        "Tomate fresco",
+                        "Coentro",
+                        "Azeite de dendê"
+                    ]
+                },
+                "preco": 65.0,
+                "calorias": 420,
+                "tempoPreparo": "45 min"
+            },
+            {
+                "id": 3,
+                "nome": "Baião de Dois",
+                "descricao": "Mistura clássica de arroz, feijão e queijo coalho.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Arroz branco",
+                        "Feijão de corda",
+                        "Queijo coalho",
+                        "Toucinho defumado"
+                    ]
+                },
+                "preco": 32.0,
+                "calorias": 550,
+                "tempoPreparo": "35 min"
+            },
+            {
+                "id": 4,
+                "nome": "Vatapá",
+                "descricao": "Creme consistente de camarão com azeite de dendê.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Camarão seco",
+                        "Farinha de trigo",
+                        "Leite de coco",
+                        "Azeite de dendê"
+                    ]
+                },
+                "preco": 38.0,
+                "calorias": 480,
+                "tempoPreparo": "50 min"
+            },
+            {
+                "id": 5,
+                "nome": "Picanha assada",
+                "descricao": "Corte nobre de carne bovina preparada na brasa.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Picanha fatiada",
+                        "Sal grosso",
+                        "Manteiga de garrafa",
+                        "Alho picado"
+                    ]
+                },
+                "preco": 75.0,
+                "calorias": 600,
+                "tempoPreparo": "25 min"
+            }
+        ]
+    }
+}

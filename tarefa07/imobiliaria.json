@@ -1,0 +1,108 @@
+{
+    "imobiliaria": {
+        "imovel": [
+            {
+                "descricao": "Casa de Luxo com Piscina",
+                "proprietario": {
+                    "nome": "Wallison Santos",
+                    "telefone": [
+                        "(84) 99999-0001",
+                        "(84) 98888-0002"
+                    ],
+                    "email": "wallison@email.com"
+                },
+                "endereco": {
+                    "rua": "Avenida Central",
+                    "bairro": "Centro",
+                    "cidade": "Bom Jesus",
+                    "numero": 150
+                },
+                "caracteristicas": {
+                    "tamanho": 250.0,
+                    "numQuartos": 4,
+                    "numBanheiros": 3
+                },
+                "valor": "850.000,00"
+            },
+            {
+                "descricao": "Terreno bem localizado",
+                "proprietario": {
+                    "nome": "Ana Oliveira",
+                    "email": "ana.vendas@email.com"
+                },
+                "endereco": {
+                    "rua": "Rua Projetada A",
+                    "bairro": "Nova Esperança",
+                    "cidade": "Natal"
+                },
+                "caracteristicas": {
+                    "tamanho": 360.0,
+                    "numQuartos": 0,
+                    "numBanheiros": 0
+                },
+                "valor": "120.000,00"
+            },
+            {
+                "descricao": "Apartamento Compacto",
+                "proprietario": {
+                    "nome": "Marcos Silva",
+                    "telefone": [
+                        "(84) 91234-5678"
+                    ]
+                },
+                "endereco": {
+                    "rua": "Rua das Flores",
+                    "bairro": "Planalto",
+                    "cidade": "São Paulo do Potengi",
+                    "numero": 12
+                },
+                "caracteristicas": {
+                    "tamanho": 45.0,
+                    "numQuartos": 1,
+                    "numBanheiros": 1
+                },
+                "valor": "155.000,00"
+            },
+            {
+                "descricao": "Casa de Campo",
+                "proprietario": {
+                    "nome": "Ricardo Lima",
+                    "email": "ricardo.lima@provedor.pt",
+                    "telefone": [
+                        "(84) 3333-4444"
+                    ]
+                },
+                "endereco": {
+                    "rua": "Estrada Velha",
+                    "bairro": "Zona Rural",
+                    "cidade": "Macaíba"
+                },
+                "caracteristicas": {
+                    "tamanho": 1000.0,
+                    "numQuartos": 3,
+                    "numBanheiros": 2
+                },
+                "valor": "450.000,00"
+            },
+            {
+                "descricao": "Loja Comercial",
+                "proprietario": {
+                    "nome": "Fernanda Souza",
+                    "email": "contato@fernandaimoveis.com"
+                },
+                "endereco": {
+                    "rua": "Rua do Comércio",
+                    "bairro": "Alecrim",
+                    "cidade": "Natal",
+                    "numero": 500
+                },
+                "caracteristicas": {
+                    "tamanho": 80.0,
+                    "numQuartos": 0,
+                    "numBanheiros": 2
+                },
+                "valor": "3.500,00"
+            }
+        ]
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "quiz": {
+        "pergunta": [
+            {
+                "enunciado": "Qual é o símbolo usado no DTD para indicar que um elemento é opcional (0 ou 1)?",
+                "alternativa": [
+                    {
+                        "texto": "Asterisco (*)",
+                        "correta": "nao"
+                    },
+                    {
+                        "texto": "Sinal de mais (+)",
+                        "correta": "nao"
+                    },
+                    {
+                        "texto": "Ponto de interrogação (?)",
+                        "correta": "sim"
+                    },
+                    {
+                        "texto": "Arroba (@)",
+                        "correta": "nao"
+                    }
+                ]
+            },
+            {
+                "enunciado": "O XML é 'Case Sensitive'. O que isso significa?",
+                "alternativa": [
+                    {
+                        "texto": "Que diferencia letras maiúsculas de minúsculas.",
+                        "correta": "sim"
+                    },
+                    {
+                        "texto": "Que o código só aceita letras maiúsculas.",
+                        "correta": "nao"
+                    },
+                    {
+                        "texto": "Que o código deve ser escrito apenas em inglês.",
+                        "correta": "nao"
+                    },
+                    {
+                        "texto": "Que não podemos usar números nas tags.",
+                        "correta": "nao"
+                    }
+                ]
+            },
+            {
+                "enunciado": "Como deve ser a estrutura de um arquivo XML?",
+                "alternativa": [
+                    {
+                        "texto": "Pode ter vários elementos raiz.",
+                        "correta": "nao"
+                    },
+                    {
+                        "texto": "As tags não precisam de fechamento.",
+                        "correta": "nao"
+                    },
+                    {
+                        "texto": "Deve ter um único elemento raiz contendo os outros.",
+                        "correta": "sim"
+                    },
+                    {
+                        "texto": "Não é permitido usar atributos.",
+                        "correta": "nao"
+                    }
+                ]
+            },
+            {
+                "enunciado": "Para que serve o arquivo DTD?",
+                "alternativa": [
+                    {
+                        "texto": "Para deixar o XML colorido no navegador.",
+                        "correta": "nao"
+                    },
+                    {
+                        "texto": "Para definir as regras e a estrutura do XML.",
+                        "correta": "sim"
+                    },
+                    {
+                        "texto": "Para transformar o XML em um site HTML.",
+                        "correta": "nao"
+                    },
+                    {
+                        "texto": "Para apagar os dados do arquivo XML.",
+                        "correta": "nao"
+                    }
+                ]
+            },
+            {
+                "enunciado": "O que o símbolo (+) indica após um elemento no DTD?",
+                "alternativa": [
+                    {
+                        "texto": "Que o elemento é proibido.",
+                        "correta": "nao"
+                    },
+                    {
+                        "texto": "Que o elemento deve aparecer 1 ou mais vezes.",
+                        "correta": "sim"
+                    },
+                    {
+                        "texto": "Que o elemento é opcional.",
+                        "correta": "nao"
+                    },
+                    {
+                        "texto": "Que o elemento deve aparecer exatamente 10 vezes.",
+                        "correta": "nao"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imobiliaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="imobiliaria.xsd">
+
+    <imovel>
+        <descricao>Casa de Luxo com Piscina</descricao>
+        <proprietario>
+            <nome>Wallison Santos</nome>
+            <email>wallison@email.com</email>
+            <telefone>(84) 99999-0001</telefone>
+            <telefone>(84) 98888-0002</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Central</rua>
+            <bairro>Centro</bairro>
+            <cidade>Bom Jesus</cidade>
+            <numero>150</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>250.00</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>850.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Terreno bem localizado</descricao>
+        <proprietario>
+            <nome>Ana Oliveira</nome>
+            <email>ana.vendas@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua Projetada A</rua>
+            <bairro>Nova Esperança</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>360.00</tamanho>
+            <numQuartos>0</numQuartos>
+            <numBanheiros>0</numBanheiros>
+        </caracteristicas>
+        <valor>120.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Apartamento Compacto</descricao>
+        <proprietario>
+            <nome>Marcos Silva</nome>
+            <telefone>(84) 91234-5678</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Planalto</bairro>
+            <cidade>São Paulo do Potengi</cidade>
+            <numero>12</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>45.00</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>155.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa de Campo</descricao>
+        <proprietario>
+            <nome>Ricardo Lima</nome>
+            <email>ricardo.lima@provedor.pt</email>
+            <telefone>(84) 3333-4444</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada Velha</rua>
+            <bairro>Zona Rural</bairro>
+            <cidade>Macaíba</cidade>
+            </endereco>
+        <caracteristicas>
+            <tamanho>1000.00</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>450.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Loja Comercial</descricao>
+        <proprietario>
+            <nome>Fernanda Souza</nome>
+            <email>contato@fernandaimoveis.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Comércio</rua>
+            <bairro>Alecrim</bairro>
+            <cidade>Natal</cidade>
+            <numero>500</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80.00</tamanho>
+            <numQuartos>0</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>3.500,00</valor>
+    </imovel>
+</imobiliaria>
