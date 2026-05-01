@@ -15,18 +15,15 @@ def obter_telefones(proprietario_no):
 
 def converter():
     try:
-        # Carrega o XML
         dom = minidom.parse("imobiliaria.xml")
         imoveis_xml = dom.getElementsByTagName("imovel")
         lista_final = []
 
         for i, imovel in enumerate(imoveis_xml):
-            # Acessa os blocos filhos
             prop = imovel.getElementsByTagName("proprietario")[0]
             end = imovel.getElementsByTagName("endereco")[0]
             carac = imovel.getElementsByTagName("caracteristicas")[0]
 
-            # Monta o dicionário seguindo a estrutura do seu XML
             dados = {
                 "id": str(i + 1),
                 "descricao": obter_texto(imovel, "descricao"),
@@ -50,7 +47,6 @@ def converter():
             }
             lista_final.append(dados)
 
-        # Salva o arquivo JSON
         with open("imobiliaria.json", "w", encoding="utf-8") as f:
             json.dump(lista_final, f, indent=4, ensure_ascii=False)
         

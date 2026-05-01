@@ -2,7 +2,6 @@ import json
 
 def carregar_dados():
     try:
-        # Abre o arquivo JSON gerado na Tarefa 09
         with open("imobiliaria.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
@@ -10,25 +9,21 @@ def carregar_dados():
         return None
 
 def detalhar_imovel(imovel):
-    """Exibe todas as informações do imóvel de forma legível."""
     print("\n" + "="*50)
     print(f"DETALHES DO IMÓVEL ID: {imovel['id']}")
     print(f"Descrição: {imovel['descricao']}")
     print(f"Valor: R$ {imovel['valor']}")
     print("-" * 30)
     
-    # Dados de Endereço
     end = imovel['endereco']
     num = end['numero'] if end['numero'] else "S/N"
     print(f"Localização: {end['rua']}, {num}")
     print(f"Bairro: {end['bairro']} | Cidade: {end['cidade']}")
     
-    # Características Técnicas
     carac = imovel['caracteristicas']
     print(f"Área: {carac['tamanho']}m² | Quartos: {carac['quartos']} | Banheiros: {carac['banheiros']}")
     print("-" * 30)
     
-    # Dados do Proprietário
     prop = imovel['proprietario']
     print(f"Proprietário: {prop['nome']}")
     if prop['email']:
@@ -44,7 +39,6 @@ def menu():
 
     while True:
         print("\n--- MENU DE IMÓVEIS (Tarefa 10) ---")
-        # Lista apenas os IDs e descrições para o menu
         for imovel in imoveis:
             print(f"[{imovel['id']}] - {imovel['descricao']}")
         
@@ -56,7 +50,6 @@ def menu():
             print("Encerrando programa...")
             break
             
-        # Busca o imóvel pelo ID digitado
         encontrado = False
         for imovel in imoveis:
             if imovel['id'] == escolha:
