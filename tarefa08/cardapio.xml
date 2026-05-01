@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio> 
+    <prato id="1">
+        <nome>Feijoada</nome>
+        <descricao>Tradicional feijoada brasileira com carnes nobres.</descricao>
+        <ingredientes>
+            <ingrediente>Feijão preto</ingrediente>
+            <ingrediente>Carne seca</ingrediente>
+            <ingrediente>Lombo suíno</ingrediente>
+            <ingrediente>calabresa</ingrediente>
+        </ingredientes>
+        <preco>45.00</preco>
+        <calorias>850</calorias>
+        <tempoPreparo>120 min</tempoPreparo>
+    </prato>
+
+    <prato id="2">
+        <nome>Moqueca</nome>
+        <descricao>Peixe cozido em panela de barro com tempero verde.</descricao>
+        <ingredientes>
+            <ingrediente>Peixe Badejo</ingrediente>
+            <ingrediente>Tomate fresco</ingrediente>
+            <ingrediente>Coentro</ingrediente>
+            <ingrediente>Azeite de dendê</ingrediente>
+        </ingredientes>
+        <preco>65.00</preco>
+        <calorias>420</calorias>
+        <tempoPreparo>45 min</tempoPreparo>
+    </prato>
+
+    <prato id="3">
+        <nome>Baião de Dois</nome>
+        <descricao>Mistura clássica de arroz, feijão e queijo coalho.</descricao>
+        <ingredientes>
+            <ingrediente>Arroz branco</ingrediente>
+            <ingrediente>Feijão de corda</ingrediente>
+            <ingrediente>Queijo coalho</ingrediente>
+            <ingrediente>Toucinho defumado</ingrediente>
+        </ingredientes>
+        <preco>32.00</preco>
+        <calorias>550</calorias>
+        <tempoPreparo>35 min</tempoPreparo>
+    </prato>
+
+    <prato id="4">
+        <nome>Vatapá</nome>
+        <descricao>Creme consistente de camarão com azeite de dendê.</descricao>
+        <ingredientes>
+            <ingrediente>Camarão seco</ingrediente>
+            <ingrediente>Farinha de trigo</ingrediente>
+            <ingrediente>Leite de coco</ingrediente>
+            <ingrediente>Azeite de dendê</ingrediente>
+        </ingredientes>
+        <preco>38.00</preco>
+        <calorias>480</calorias>
+        <tempoPreparo>50 min</tempoPreparo>
+    </prato>
+
+    <prato id="5">
+        <nome>Picanha assada</nome>
+        <descricao>Corte nobre de carne bovina preparada na brasa.</descricao>
+        <ingredientes>
+            <ingrediente>Picanha fatiada</ingrediente>
+            <ingrediente>Sal grosso</ingrediente>
+            <ingrediente>Manteiga de garrafa</ingrediente>
+            <ingrediente>Alho picado</ingrediente>
+        </ingredientes>
+        <preco>75.00</preco>
+        <calorias>600</calorias>
+        <tempoPreparo>25 min</tempoPreparo>
+    </prato>
+</cardapio>

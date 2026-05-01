@@ -1,0 +1,114 @@
+[
+    {
+        "id": "1",
+        "descricao": "Casa de Luxo com Piscina",
+        "proprietario": {
+            "nome": "Wallison Santos",
+            "email": "wallison@email.com",
+            "telefones": [
+                "(84) 99999-0001",
+                "(84) 98888-0002"
+            ]
+        },
+        "endereco": {
+            "rua": "Avenida Central",
+            "bairro": "Centro",
+            "cidade": "Bom Jesus",
+            "numero": "150"
+        },
+        "caracteristicas": {
+            "tamanho": "250.00",
+            "quartos": "4",
+            "banheiros": "3"
+        },
+        "valor": "850.000,00"
+    },
+    {
+        "id": "2",
+        "descricao": "Terreno bem localizado",
+        "proprietario": {
+            "nome": "Ana Oliveira",
+            "email": "ana.vendas@email.com",
+            "telefones": []
+        },
+        "endereco": {
+            "rua": "Rua Projetada A",
+            "bairro": "Nova Esperança",
+            "cidade": "Natal",
+            "numero": ""
+        },
+        "caracteristicas": {
+            "tamanho": "360.00",
+            "quartos": "0",
+            "banheiros": "0"
+        },
+        "valor": "120.000,00"
+    },
+    {
+        "id": "3",
+        "descricao": "Apartamento Compacto",
+        "proprietario": {
+            "nome": "Marcos Silva",
+            "email": "",
+            "telefones": [
+                "(84) 91234-5678"
+            ]
+        },
+        "endereco": {
+            "rua": "Rua das Flores",
+            "bairro": "Planalto",
+            "cidade": "São Paulo do Potengi",
+            "numero": "12"
+        },
+        "caracteristicas": {
+            "tamanho": "45.00",
+            "quartos": "1",
+            "banheiros": "1"
+        },
+        "valor": "155.000,00"
+    },
+    {
+        "id": "4",
+        "descricao": "Casa de Campo",
+        "proprietario": {
+            "nome": "Ricardo Lima",
+            "email": "ricardo.lima@provedor.pt",
+            "telefones": [
+                "(84) 3333-4444"
+            ]
+        },
+        "endereco": {
+            "rua": "Estrada Velha",
+            "bairro": "Zona Rural",
+            "cidade": "Macaíba",
+            "numero": ""
+        },
+        "caracteristicas": {
+            "tamanho": "1000.00",
+            "quartos": "3",
+            "banheiros": "2"
+        },
+        "valor": "450.000,00"
+    },
+    {
+        "id": "5",
+        "descricao": "Loja Comercial",
+        "proprietario": {
+            "nome": "Fernanda Souza",
+            "email": "contato@fernandaimoveis.com",
+            "telefones": []
+        },
+        "endereco": {
+            "rua": "Rua do Comércio",
+            "bairro": "Alecrim",
+            "cidade": "Natal",
+            "numero": "500"
+        },
+        "caracteristicas": {
+            "tamanho": "80.00",
+            "quartos": "0",
+            "banheiros": "2"
+        },
+        "valor": "3.500,00"
+    }
+]
